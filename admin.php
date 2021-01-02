@@ -1,7 +1,7 @@
-<?php
+ < ?php
 require_once "login.php";
 require_once "funciones.php";
-
+//gringuita noegueseni
 session_start(); 
 if (!isset($_SESSION["id"])){
 header("Location: index.php");
